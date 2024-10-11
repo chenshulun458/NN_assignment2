@@ -28,7 +28,7 @@ NN_Assignment2/ ├── .venv/ # Python virtual environment ├── data/ # 
    ```bash  
     python -m venv .venv
     source .venv/bin/activate  # For Linux/MacOS
-.venv\Scripts\activate     # For Windows
+    .venv\Scripts\activate     # For Windows
 3. Install the required dependencies:
    ```bash  
     pip install -r requirements.txt
