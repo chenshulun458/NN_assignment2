@@ -1,0 +1,69 @@
+PS C:\Users\Admin\Desktop\NN_Assignment2> & D:/python3.10/python.exe c:/Users/Admin/Desktop/NN_Assignment2/src/model.py
+Running Linear Regression Experiments
+Experiment 1 - RMSE: 2.2162, R-squared: 0.4944, AUC: 0.9371, Accuracy: 0.9318
+Experiment 2 - RMSE: 2.2040, R-squared: 0.5093, AUC: 0.9515, Accuracy: 0.9246
+Experiment 3 - RMSE: 2.2589, R-squared: 0.5399, AUC: 0.9538, Accuracy: 0.9348
+Experiment 4 - RMSE: 2.2209, R-squared: 0.5335, AUC: 0.9499, Accuracy: 0.9282
+Experiment 5 - RMSE: 2.2246, R-squared: 0.5183, AUC: 0.9429, Accuracy: 0.9288
+Experiment 6 - RMSE: 2.2191, R-squared: 0.4954, AUC: 0.9555, Accuracy: 0.9348
+Experiment 7 - RMSE: 2.2222, R-squared: 0.5132, AUC: 0.9469, Accuracy: 0.9390
+Experiment 8 - RMSE: 2.2988, R-squared: 0.4860, AUC: 0.9508, Accuracy: 0.9288
+Experiment 9 - RMSE: 2.2994, R-squared: 0.5002, AUC: 0.9482, Accuracy: 0.9330
+Experiment 10 - RMSE: 2.2393, R-squared: 0.5265, AUC: 0.9473, Accuracy: 0.9306
+
+Final Results after running multiple experiments:
+Average RMSE: 2.2403, RMSE Std Dev: 0.0325
+Average R-squared: 0.5117, R-squared Std Dev: 0.0170
+Average AUC: 0.9484, AUC Std Dev: 0.0051
+Average Accuracy: 0.9314, Accuracy Std Dev: 0.0039
+
+Running Logistic Regression Experiments
+Experiment 1 - Accuracy: 0.8845
+Experiment 2 - Accuracy: 0.8821
+Experiment 3 - Accuracy: 0.8683
+Experiment 4 - Accuracy: 0.8875
+Experiment 5 - Accuracy: 0.9078
+Experiment 6 - Accuracy: 0.8869
+Experiment 7 - Accuracy: 0.8833
+Experiment 8 - Accuracy: 0.8731
+Experiment 9 - Accuracy: 0.8845
+Experiment 10 - Accuracy: 0.8791
+
+Final Results after running multiple experiments:
+Average Accuracy: 0.8837, Accuracy Std Dev: 0.0099
+
+Running Neural Network Experiments
+Experiment 1 - RMSE: 2.1511, R-squared: 0.5237, AUC: 0.9459, Accuracy: 0.9360
+Experiment 2 - RMSE: 2.0435, R-squared: 0.5782, AUC: 0.9600, Accuracy: 0.9354
+Experiment 3 - RMSE: 2.1234, R-squared: 0.5934, AUC: 0.9537, Accuracy: 0.9366
+Experiment 4 - RMSE: 2.0594, R-squared: 0.5989, AUC: 0.9512, Accuracy: 0.9306
+Experiment 5 - RMSE: 2.0930, R-squared: 0.5737, AUC: 0.9467, Accuracy: 0.9246
+Experiment 6 - RMSE: 2.0883, R-squared: 0.5531, AUC: 0.9572, Accuracy: 0.9348
+Experiment 7 - RMSE: 2.0788, R-squared: 0.5740, AUC: 0.9485, Accuracy: 0.9306
+Experiment 8 - RMSE: 2.2665, R-squared: 0.5004, AUC: 0.9557, Accuracy: 0.9348
+Experiment 9 - RMSE: 2.2180, R-squared: 0.5350, AUC: 0.9532, Accuracy: 0.9354
+Experiment 10 - RMSE: 2.1882, R-squared: 0.5478, AUC: 0.9470, Accuracy: 0.9282
+
+Final Results after running multiple experiments:
+Average RMSE: 2.1310, RMSE Std Dev: 0.0696
+Average R-squared: 0.5578, R-squared Std Dev: 0.0300
+Average AUC: 0.9519, AUC Std Dev: 0.0046
+Average Accuracy: 0.9327, Accuracy Std Dev: 0.0038
+
+Running Stacking Regression Experiments
+Experiment 1 - RMSE: 2.0659, R-squared: 0.5607, AUC: 0.9494, Accuracy: 0.9360
+Experiment 2 - RMSE: 2.0458, R-squared: 0.5772, AUC: 0.9617, Accuracy: 0.9348
+Experiment 3 - RMSE: 2.1955, R-squared: 0.5654, AUC: 0.9566, Accuracy: 0.9372
+Experiment 4 - RMSE: 2.1247, R-squared: 0.5731, AUC: 0.9555, Accuracy: 0.9360
+Experiment 5 - RMSE: 2.1372, R-squared: 0.5555, AUC: 0.9488, Accuracy: 0.9312
+Experiment 6 - RMSE: 2.0495, R-squared: 0.5696, AUC: 0.9591, Accuracy: 0.9372
+Experiment 7 - RMSE: 2.1123, R-squared: 0.5601, AUC: 0.9460, Accuracy: 0.9396
+Experiment 8 - RMSE: 2.1273, R-squared: 0.5598, AUC: 0.9559, Accuracy: 0.9324
+Experiment 9 - RMSE: 2.1659, R-squared: 0.5566, AUC: 0.9566, Accuracy: 0.9390
+Experiment 10 - RMSE: 2.1094, R-squared: 0.5798, AUC: 0.9506, Accuracy: 0.9354
+
+Final Results after running multiple experiments:
+Average RMSE: 2.1134, RMSE Std Dev: 0.0462
+Average R-squared: 0.5658, R-squared Std Dev: 0.0082
+Average AUC: 0.9540, AUC Std Dev: 0.0048
+Average Accuracy: 0.9358, Accuracy Std Dev: 0.0025
