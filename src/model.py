@@ -294,7 +294,7 @@ if __name__ == '__main__':
     neural_network_experiment_multiple(X_scaled, y, hidden_layer_sizes=(100,50), learning_rate_init=0.001, n_experiments=10)
 
 
-    # MMFF
-    print("\nRunning Stacking Regression Experiments")
-    stacking_regression_experiment_multiple(X_scaled, y, n_experiments=10)
+    # # MMFF
+    # print("\nRunning Stacking Regression Experiments")
+    # stacking_regression_experiment_multiple(X_scaled, y, n_experiments=10)
 
