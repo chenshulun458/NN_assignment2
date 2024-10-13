@@ -1,36 +1,38 @@
-# NN_Assignment2
+# Abalone Age Prediction Project
 
-This repository contains the code and resources for the **Neural Network Assignment 2**. The project aims to perform data preprocessing, feature engineering, and model development using various neural network techniques. The goal is to predict the target variable using the provided dataset and evaluate model performance.
+This project predicts the age of abalone using various models (Linear Regression, Logistic Regression, Neural Networks) and combines them using a fusion approach. The structure is organized into data, experiments, notebooks, and source code.
 
 ## Project Structure
 
-The project is organized into the following directories and files:
-NN_Assignment2/ ├── .venv/ # Python virtual environment ├── data/ # Directory for datasets │ ├── X_train.csv # Training data for features │ ├── X_test.csv # Testing data for features │ ├── y_train.csv # Training data for target variable │ └── y_test.csv # Testing data for target variable ├── experiments/ # Directory for storing experimental results ├── notebooks/ # Jupyter notebooks for exploratory analysis and visualization │ └── exploratory_analysis.ipynb ├── reports/ # Directory for project reports │ └── data_processing/ # Contains data processing scripts and reports ├── src/ # Source code directory │ ├── data_processing.py # Script for data cleaning and preprocessing │ ├── feature_engineer.py # Script for feature engineering │ ├── fusion_model.py # Script for model fusion techniques │ ├── model/ # Directory for different models │ ├── model_test.py # Script for testing the model performance ├── .gitignore # Specifies files and directories to be ignored by Git ├── README.md # Project documentation ├── requirements.txt # Python packages and dependencies └── test.ipynb # Jupyter notebook for testing the code
+- **data/**
+  - `X_train.csv` : Training features dataset.
+  - `X_test.csv` : Test features dataset.
+  - `y_train.csv` : Training labels dataset.
+  - `y_test.csv` : Test labels dataset.
+  - `README.md` : Dataset description or instructions.
 
+- **experiments/**
+  - `accuracy_comparison.png` : Accuracy comparison between models.
+  - `advanced_model_comparison.png` : Comparison of advanced model performance.
+  - `auc_comparison.png` : AUC score comparison of models.
+  - `comparison_combined.png` : Combined performance comparison of models.
+  - `r2_comparison.png` : R-squared comparison between models.
+  - `rmse_comparison.png` : Root Mean Squared Error comparison between models.
+  - `imag1.png` : Additional image related to model results.
+  - `model_output.txt` : Output file containing model performance summaries.
 
-## Getting Started
+- **notebooks/**
+  - `exploratory_analysis.ipynb` : Notebook for data exploration and visualization.
+  - `model_development.ipynb` : Notebook for developing the machine learning models.
+  - `model_hyperparameter_tuning.ipynb` : Notebook for hyperparameter tuning of the models.
 
-### Prerequisites
+- **src/**
+  - `data_processing.py` : Script for data preprocessing and cleaning.
+  - `experiments_visualization_1.py` : Script for generating visualizations from model experiments.
+  - `experiments_visualization_2.py` : Additional visualization script for comparing experiments.
+  - `feature_engineer.py` : Script for creating and engineering new features for the model.
+  - `model.py` : Script containing model definitions and training processes.
 
-- Python 3.8 or higher
-- Jupyter Notebook
-- Virtual environment (`venv` or `conda`)
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/NN_Assignment2.git
-
-2. Create a virtual environment and activate it:
-
-   ```bash  
-    python -m venv .venv
-    source .venv/bin/activate  # For Linux/MacOS
-    .venv\Scripts\activate     # For Windows
-3. Install the required dependencies:
-   ```bash  
-    pip install -r requirements.txt
-
+- **.gitignore** : Specifies files and directories to be ignored by git.
+- **requirements.txt** : List of dependencies and Python packages needed for the project.
 
